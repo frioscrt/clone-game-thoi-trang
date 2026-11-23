@@ -4,7 +4,7 @@ Việc đã bàn mà chưa làm, và phần bàn giao giữa các phiên. Clair 
 
 ## Đang treo
 
-- [ ] 23/11 · **Bước 0: thử hình.** Clair tạo 1 khuôn mặt nền + 3 kiểu tóc bằng AI vẽ (câu lệnh soạn sẵn ở `CAU-LENH-VE.md`), gửi vào phiên. Claude tách nền, căn khớp, ghép thử, cho Clair xem. Khớp thì mới vẽ cả bộ · Clair
+- [ ] 23/11 · **Bước 0: thử hình.** Clair tạo 1 khuôn mặt khách + 1 cảnh tiệm bằng Gemini (câu lệnh ở `CAU-LENH-VE.md`), gửi vào phiên. Claude tách nền, vẽ thử tóc bằng code chồng lên mặt, cho Clair xem tóc code có hợp nét hình AI không. Hợp thì mới vẽ cả bộ · Clair
 - [ ] 23/11 · Đợt 1: tiệm tóc chơi được trọn vẹn (xem "Phương án đã chốt") · Clair
 - [ ] 23/11 · Các tiệm sau, mỗi tiệm một đợt: móng, spa, phối đồ, nấu ăn, thú cưng. Thứ tự Clair chốt sau · Clair
 - [ ] 23/11 · Đặt tên game, tên tiệm, tên nhân vật: Clair tự đặt hoặc Claude đưa 3–5 tên để chọn · Clair
@@ -14,9 +14,10 @@ Việc đã bàn mà chưa làm, và phần bàn giao giữa các phiên. Clair 
 Nguồn cảm hứng: series game Judy của E&I Studio (đã biến mất khỏi kho ứng dụng). Chỉ lấy **thể loại và kiểu chơi** (tiệm làm đẹp, làm từng bước cho khách). Không chép tên, nhân vật, hình, giao diện của series đó.
 
 - **Dự án riêng**, không gộp vào game phối đồ chibi.
-- **Hình:** Clair tạo bằng công cụ AI vẽ (hiện chưa dùng công cụ nào, Claude hướng dẫn). Claude không tự tạo ảnh được; Claude tách nền, căn khớp, ghép vào game.
+- **Hình: trộn hai cách (Clair chốt 23/11).** Claude không tự tạo ảnh được.
+  - **Tóc vẽ bằng code** (Claude làm): để cắt dài ngắn thật, uốn, duỗi, nhuộm màu nào cũng được, mượt khi thao tác. Nét tóc phải hợp nét hình AI (viền đậm, màu kẹo ngọt).
+  - **Hình AI** (Clair tạo bằng app Gemini, Claude soạn câu lệnh): khuôn mặt khách (tóc buộc sát đầu, nhìn thẳng, cùng tư thế và cỡ), cảnh tiệm, dụng cụ (kéo, lược, máy sấy, máy uốn, bát thuốc nhuộm, vòi gội). Claude tách nền, căn khớp, ghép vào game.
 - **Nét vẽ:** hoạt hình mắt to tròn, màu kẹo ngọt.
-- **Cách làm hình để tóc đổi được:** một khuôn mặt nền, đầu giữ đúng một tư thế (nhìn thẳng, thấy đầu và vai). Mỗi kiểu tóc là một hình vẽ khớp cái đầu đó. Cắt tóc = đổi bản dài → vừa → ngắn. Tóc vẽ màu xám nhạt để game tự đổi màu khi nhuộm.
 - **Nơi chơi:** trang web riêng tư trên claude.ai (Artifact), ưu tiên màn hình dọc điện thoại/iPad. Tiến độ phải lưu qua các lần mở (nạp skill `artifact-capabilities` trước khi viết). Hình đưa lên kho hình của Artifact.
 - **Đợt 1, tiệm tóc:** khách lần lượt vào, đưa hình kiểu tóc muốn làm. Người chơi làm từng bước: gội (kéo vòi, nổi bọt) → cắt → uốn hoặc duỗi → nhuộm → gắn kẹp, nơ. Xong được chấm sao theo độ giống yêu cầu, có tiền để mở thêm màu nhuộm và phụ kiện.
 - Mỗi đợt xong phải chơi được trọn vẹn. Gửi link cho Clair thử rồi mới sang đợt sau.

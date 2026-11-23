@@ -1,29 +1,21 @@
-# Câu lệnh vẽ — bước 0
+# Câu lệnh vẽ (dán vào app Gemini)
 
-Dán từng câu dưới đây vào công cụ AI vẽ, **theo đúng thứ tự, trong cùng một cuộc trò chuyện**. Câu lệnh viết bằng tiếng Anh vì công cụ vẽ hiểu tiếng Anh tốt hơn.
+Tóc do Claude vẽ bằng code, nên AI chỉ vẽ mặt khách, cảnh tiệm và dụng cụ. Dán từng câu **trong cùng một cuộc trò chuyện** để nét vẽ giữ giống nhau. Hình xấu thì gõ "draw again", đừng mở cuộc mới. Tải hình về rồi gửi vào phiên Claude.
 
-Mỗi hình tạo xong: tải về, rồi gửi vào phiên Claude. Hình nào xấu hoặc lệch thì bảo nó vẽ lại, đừng mở cuộc trò chuyện mới (mở mới là nó quên mặt nhân vật).
+## Bước 0 (thử trước 2 hình)
 
-## Hình 1: khuôn mặt nền
-
-```
-Cute cartoon girl, front view, head and shoulders only, perfectly centered, looking straight at the viewer. Big round sparkly eyes, rosy cheeks, small smile, simple round face. Her hair is pulled back very tightly and flat against her head, no bangs, no loose strands, so the whole head shape is visible. She wears a plain white salon cape. Style: soft 2D cartoon for a kids' mobile game, clean outlines, candy pastel colors. Plain pure white background, no shadow, no text. Square image.
-```
-
-## Hình 2: tóc dài thẳng
+### Câu 1: khuôn mặt khách đầu tiên
 
 ```
-Edit the previous image. Keep her face, head position, size, cape and background exactly the same, pixel for pixel. Only add a hairstyle: long straight hair down past the shoulders, with straight bangs. Color the hair light neutral gray, no other color.
+Cute cartoon girl, front view, head and shoulders only, perfectly centered, looking straight at the viewer. Big round sparkly eyes, rosy cheeks, small smile, simple round face. Her hair is pulled back very tightly and flat against her head, no bangs, no loose strands, so the whole head shape is visible. She wears a plain white salon cape. Style: soft 2D cartoon for a kids' mobile game, clean dark outlines, candy pastel colors. Plain pure white background, no shadow, no text. Square image.
 ```
 
-## Hình 3: tóc bob gợn sóng
+### Câu 2: cảnh tiệm tóc
 
 ```
-Edit the FIRST image again (the girl with hair pulled back). Keep her face, head position, size, cape and background exactly the same. Only add a hairstyle: chin-length wavy bob with side-swept bangs. Color the hair light neutral gray, no other color.
+Same cartoon style as before. Interior of a cute hair salon seen from the front, empty, no people: a big round mirror in the center, a pink salon chair in front of it, shelves with colorful bottles, plants, soft lights. Candy pastel colors, clean dark outlines, kids' mobile game background. No text. Tall vertical image, 9:16.
 ```
 
-## Hình 4: tóc tém ngắn
+## Sau bước 0 (chỉ làm khi bước 0 đã ổn)
 
-```
-Edit the FIRST image again (the girl with hair pulled back). Keep her face, head position, size, cape and background exactly the same. Only add a hairstyle: short pixie cut with soft fluffy bangs. Color the hair light neutral gray, no other color.
-```
+Thêm khách khác, dụng cụ. Claude soạn câu lệnh sau khi xem hình bước 0.
